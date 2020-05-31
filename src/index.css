@@ -1,0 +1,32 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+label {
+  display: block;
+}
+
+button {
+  border-radius: 5px;
+  outline: none;
+  transition: 0.2s;
+  background-color: #fff;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.title {
+  color: #4545fc;
+  margin-bottom: 15px;
+}
+#root {
+  margin: 0 auto;
+  width: 430px;
+  padding: 25px;
+}

@@ -1,0 +1,32 @@
+.contactForm{
+    width: 400px;
+    padding: 15px;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.inputForm{
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 95%;
+    outline-color: #4545fc;
+    font-weight: bold;
+}
+.submitButton{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #4545fc;
+    color: white;
+    font-weight: bold;
+}
+.submitButton:active{
+    transform: scale(1.05);
+}
+.submitButton:disabled{
+    cursor: default;
+    background-color: grey;
+}
+label{
+    font-weight: bold;
+}

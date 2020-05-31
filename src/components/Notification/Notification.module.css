@@ -1,0 +1,14 @@
+.notification{
+    background-color: red;
+    padding: 15px 30px;
+    position: absolute;
+    top: 50px;
+    right: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.text{
+    color: white;
+}
