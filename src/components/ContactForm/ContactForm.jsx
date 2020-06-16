@@ -64,7 +64,7 @@ export default class ContactForm extends Component {
         <button
           className={submitButton}
           type="submit"
-          disabled={!name || !number}
+          disabled={!name || !number || isNaN(+number)}
         >
           Add contact
         </button>
